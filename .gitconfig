@@ -1,0 +1,15 @@
+[user]
+	email = joshting25@gmail.com
+	name = Josh Ting
+[alias]
+	a = add
+	s = status
+	co = checkout
+	br = branch
+	cm = commit
+	l = log
+	smu = submodule update
+	st = stash
+	sta = stash --include-untracked
+	standup = !git log --author=$USER --since='9am yesterday' --all --format=%s
+	which = !git branch | grep -i
