@@ -3,12 +3,14 @@
 	name = Josh Ting
 [alias]
 	a = add
+	d = diff
 	s = status
 	co = checkout
 	br = branch
 	cm = commit
 	l = log
 	m = merge
+	ll = log --oneline --abbrev --graph --decorate
 	smu = submodule update
 	st = stash
 	sta = stash --include-untracked
