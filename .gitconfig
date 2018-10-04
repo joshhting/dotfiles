@@ -6,11 +6,14 @@
 	d = diff
 	s = status
 	co = checkout
+	con = config
 	br = branch
 	cm = commit
 	l = log
 	m = merge
 	ll = log --oneline --abbrev --graph --decorate
+	r = reset
+	rem = remote
 	smu = submodule update
 	st = stash
 	sta = stash --include-untracked
