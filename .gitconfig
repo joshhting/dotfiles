@@ -6,6 +6,7 @@
 	d = diff
 	s = status
 	co = checkout
+	conf = config
 	con = config
 	br = branch
 	cm = commit
