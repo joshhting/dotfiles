@@ -10,6 +10,7 @@
 	con = config
 	br = branch
 	cm = commit
+	cmam = commit -a -m
 	l = log
 	m = merge
 	ll = log --oneline --abbrev --graph --decorate
