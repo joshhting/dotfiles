@@ -8,6 +8,7 @@
 	co = checkout
 	conf = config
 	con = config
+	cp = cherry-pick
 	br = branch
 	cm = commit
 	cmam = commit -a -m
@@ -15,9 +16,11 @@
 	m = merge
 	ll = log --oneline --abbrev --graph --decorate
 	r = reset
+	rb = rebase
 	rem = remote
-	smu = submodule update
+	smu = submodule update --init --recursive
 	st = stash
 	sta = stash --include-untracked
+	stp = stash pop
 	standup = !git log --author=$USER --since='9am yesterday' --all --format=%s
 	which = !git branch | grep -i
