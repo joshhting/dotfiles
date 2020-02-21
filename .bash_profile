@@ -13,3 +13,4 @@ alias m='python manage.py migrate'
 alias run='python manage.py runserver'
 alias imp='_imp'
 
+source ~/dotfiles/docker.sh
