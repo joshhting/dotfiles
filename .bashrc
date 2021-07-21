@@ -95,6 +95,7 @@ alias l='ls -CF'
 # some custom aliases
 alias mrs='make run-sim'
 alias g='hub'
+alias gt='gnome-tweaks'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
