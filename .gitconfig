@@ -12,6 +12,7 @@
 	br = branch
 	cm = commit
 	cmam = commit -a -m
+	f = fetch
 	l = log
 	m = merge
 	ll = log --oneline --abbrev --graph --decorate
