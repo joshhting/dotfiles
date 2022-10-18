@@ -4,6 +4,7 @@
 [alias]
 	a = add
 	d = diff
+	dw = diff --word-diff
 	s = status
 	co = checkout
 	conf = config
