@@ -19,6 +19,7 @@
 	ll = log --oneline --abbrev --graph --decorate
 	r = reset
 	rb = rebase
+	sq = rebase -i HEAD~2
 	rem = remote
 	smu = submodule update --init --recursive
 	st = stash
