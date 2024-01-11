@@ -15,8 +15,9 @@
 	cmam = commit -a -m
 	f = fetch
 	l = log
-	m = merge
 	ll = log --oneline --abbrev --graph --decorate
+	m = merge
+	psu = push --set-upstream origin
 	r = reset
 	rb = rebase
 	sq = rebase -i HEAD~2
