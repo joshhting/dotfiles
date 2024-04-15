@@ -16,8 +16,10 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTIGNORE="ls*:pwd:exit:history"
+HISTTIMEFORMAT="%y-%m-%d %T "
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -96,6 +98,7 @@ alias l='ls -CF'
 alias mrs='make run-sim'
 alias g='hub'
 alias gt='gnome-tweaks'
+alias p3='python3'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
