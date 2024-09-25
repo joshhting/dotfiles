@@ -8,7 +8,7 @@
 	s = status
 	co = checkout
 	conf = config
-	con = config
+	cfeg = config -e --global
 	cp = cherry-pick
 	br = branch
 	cm = commit
@@ -17,7 +17,7 @@
 	l = log
 	ll = log --oneline --abbrev --graph --decorate
 	m = merge
-	psu = push --set-upstream origin
+	psu = "!git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 	r = reset
 	rb = rebase
 	sq = rebase -i HEAD~2
