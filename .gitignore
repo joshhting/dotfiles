@@ -1,0 +1,27 @@
+# https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
+# git config --global core.excludesfile ~/.gitignore
+
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# WebStorm
+.idea/
+
+# VS Code
+.vscode
+
+# vi
+*~
+
+# General
+log/
+*.log
+
+composer.lock
+package.lock
