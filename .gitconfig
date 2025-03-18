@@ -27,6 +27,7 @@
 	sta = stash --include-untracked
 	stp = stash pop
 	standup = !git log --author=$USER --since='9am yesterday' --all --format=%s
+	sw = switch
 	which = !git branch | grep -i
 [column]
 	ui = auto
