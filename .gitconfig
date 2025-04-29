@@ -11,6 +11,7 @@
 	cfeg = config -e --global
 	cp = cherry-pick
 	br = branch
+	brm = branch -m
 	cm = commit
 	cmam = commit -a -m
 	f = fetch
