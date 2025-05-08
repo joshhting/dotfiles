@@ -19,6 +19,7 @@
 	ll = log --oneline --abbrev --graph --decorate
 	m = merge
 	psu = "!git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" # redundant because of autoSetupRemote
+	pf = push --force-with-lease
 	r = reset
 	rb = rebase
 	sq = rebase -i HEAD~2
