@@ -16,7 +16,9 @@
 	cmam = commit -a -m
 	f = fetch
 	l = log
+	lgrep = log -S
 	ll = log --oneline --abbrev --graph --decorate
+	mnts = maintenance start
 	m = merge
 	psu = "!git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" # redundant because of autoSetupRemote
 	pf = push --force-with-lease
@@ -57,3 +59,5 @@
 	excludesfile = ~/.gitignore
 [pull]
 	rebase = true
+[rerere]
+        enabled = true
