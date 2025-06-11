@@ -4,6 +4,7 @@
 [alias]
 	a = add
 	d = diff
+	de = "!f() { args=(); for dir in \"$@\"; do args+=(\":!$dir\"); done; git diff \"${args[@]}\"; }; f" # exclude dirs
 	dw = diff --word-diff
 	s = status
 	co = checkout
