@@ -15,6 +15,7 @@
 	brm = branch -m
 	cm = commit
 	cmam = commit -a -m
+	cmm = commit -m
 	f = fetch
 	l = log
 	lgrep = log -S
