@@ -19,10 +19,10 @@ alias m='python manage.py migrate'
 alias run='python manage.py runserver'
 alias imp='_imp'
 
-parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+mkcd () {
+  \mkdir -p "$1"
+  cd "$1"
 }
-export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 
 source ~/dotfiles/docker.sh
