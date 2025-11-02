@@ -124,7 +124,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:$HOME/hub/bin
+export PATH=$PATH:$HOME/hub/bin:$HOME/dotfiles/scripts
 export EDITOR='vim'
 export VISUAL='vim'
 
