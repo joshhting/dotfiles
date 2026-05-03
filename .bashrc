@@ -99,6 +99,8 @@ alias mrs='make run-sim'
 alias g='hub'
 alias gt='gnome-tweaks'
 alias p3='python3'
+alias npmc='rm -rf node_modules package-lock.json && npm cache clean --force'
+alias npmi='npm install'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
