@@ -19,6 +19,12 @@ alias m='python manage.py migrate'
 alias run='python manage.py runserver'
 alias imp='_imp'
 
+# k8s
+alias k='kubectl'
+alias kcg='kubectl config get-contexts'
+alias ku='kubectl config use-context'
+alias kg='kubectl get'
+
 mkcd () {
   \mkdir -p "$1"
   cd "$1"
