@@ -6,7 +6,7 @@ _imp () {
 
 # Git branch in prompt
 parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
@@ -21,9 +21,16 @@ alias imp='_imp'
 
 # k8s
 alias k='kubectl'
+alias kd='kubectl delete -n $NS'
+alias kg='kubectl get -n $NS'
+alias kga='kubectl get -A
 alias kcg='kubectl config get-contexts'
 alias ku='kubectl config use-context'
 alias kg='kubectl get'
+
+kp() {
+  kubectl patch -p '{"metadata":{"finalizers":null}}' -n "$NS" "$@"
+}
 
 mkcd () {
   \mkdir -p "$1"
