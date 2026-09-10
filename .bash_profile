@@ -18,6 +18,7 @@ alias mm='python manage.py makemigrations'
 alias m='python manage.py migrate'
 alias run='python manage.py runserver'
 alias imp='_imp'
+alias viewmod='stat -c %a %n"'
 
 # k8s
 alias k='kubectl'
