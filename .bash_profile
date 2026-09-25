@@ -22,15 +22,16 @@ alias viewmod='stat -c %a %n"'
 
 # k8s
 alias k='kubectl'
-alias kd='kubectl delete -n $NS'
-alias kg='kubectl get -n $NS'
+alias kd='kubectl delete'
+alias kg='kubectl get'
 alias kga='kubectl get -A
 alias kcg='kubectl config get-contexts'
 alias ku='kubectl config use-context'
+alias kns='f() { kubectl config set-context --current --namespace="$1"; unset -f f; }; f'
 alias kg='kubectl get'
 
 kp() {
-  kubectl patch -p '{"metadata":{"finalizers":null}}' -n "$NS" "$@"
+  kubectl patch -p '{"metadata":{"finalizers":null}}' "$@"
 }
 
 mkcd () {
