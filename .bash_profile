@@ -24,7 +24,7 @@ alias viewmod='stat -c %a %n"'
 alias k='kubectl'
 alias kd='kubectl delete'
 alias kg='kubectl get'
-alias kga='kubectl get -A
+alias kga='kubectl get -A'
 alias kcg='kubectl config get-contexts'
 alias ku='kubectl config use-context'
 alias kns='f() { kubectl config set-context --current --namespace="$1"; unset -f f; }; f'
